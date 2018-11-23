@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background: $white;
+  background: #cdc9c9; /*$white;*/
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -237,7 +237,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $white;
+      color: #cdc9c9; /*$white;*/
     }
   }
 }
@@ -280,7 +280,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: #cdc9c9; /*$lightGray;*/
 }
 
 footer {
