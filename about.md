@@ -4,6 +4,9 @@ title: About
 permalink: /about/
 ---
 
+#### **Reading time:** {{ content | reading_time_as_i }}
+---
+
 ## Greetings!
 First, I'd like to thank you for visiting! I hope that through your review of my website, I am able to provide some value to you with the content I share. Second, I admit this is my first blog site...***EVER***! My goals may seem a bit far-fetched to some; however, I'm determined to accomplish them.
 

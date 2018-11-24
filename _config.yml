@@ -54,6 +54,7 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-time-to-read # Display time to read all content
+  - jekyll-last-modified-at # Display the last modified date on content pages, i.e. posts and projects
 
 # Exclude these files from your production _site
 exclude:
