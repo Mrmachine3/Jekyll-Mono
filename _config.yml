@@ -53,6 +53,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-time-to-read # Display time to read all content
 
 # Exclude these files from your production _site
 exclude:
