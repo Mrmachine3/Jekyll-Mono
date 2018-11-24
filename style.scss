@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background: #cdc9c9; /*$white;*/
+  background: $gainsboro; /*$white;*/
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -237,7 +237,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: #cdc9c9; /*$white;*/
+      color: $snow; /*$white;*/
     }
   }
 }
@@ -280,7 +280,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: #cdc9c9; /*$lightGray;*/
+  background-color: $gainsboro;
 }
 
 footer {
