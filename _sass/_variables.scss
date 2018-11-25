@@ -3,7 +3,6 @@
 // VARIABLES
 //
 
-
 // Colors
 
 $black: #000;
@@ -18,23 +17,21 @@ $gainsboro: #dcdcdc;
 $slategray: #2F4F4F;
 
 // Main theme colors 
-// Some cool main theme colors(violet:#8476ad;blue:#5cacee;red:#ff7373,#ff6f69;green:#6acf64,#2ddbb3;orange:#ffa268)
-
-$mono-color: $black;                // main theme color(header, links, footer icons, buttons, post-title)
+$mono-color: $slategray;                // main theme color(header, links, footer icons, buttons, post-title)
 $hl-color: $blue;              // header link color (author name and posted on date) for blog post meta 
 $navbar-hover-color:$gray;        // navbar hover color (site name and navbar links hover color)
-$link-color: $darkerGray;        // normal hyperlink color other than the ones above.
+$link-color: $gainsboro;        // normal hyperlink color other than the ones above.
 
 
 // Heading colors
-// You can play around with these too!
 $h1-color: $mono-color;
 $h2-color: $mono-color; 
 $h3-color: $darkerGray; 
-$h4-color: $gray; 
+$h4-color: $darkerGray; 
+$h5-color: $darkerGray; 
+
 
 // Your avatar
-
 // $avatar: "/images/avatar.jpg";
 $avatar: "/images/ironman-bw.png";
 

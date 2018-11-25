@@ -5,13 +5,15 @@ layout: blog
 <article class="post">
  <div class="space-extra-small">
  </div>
-
   <div class="entry">
-    <h4><strong>Reading time: {{ content | reading_time_as_s }}</strong></h4>
-    <hr>
+    <table style="width: 100%;">
+      <tr>
+        <td class="alignLeft"><h5>Reading time: {{ content | reading_time_as_s }}</h5></td>
+        <td class="alignRight"><h5>Last modified: {{ page.last_modified_at | date: '%B %d, %Y' }}</h5></td>
+      </tr>
+    <table> 
     {{ content }}
   </div>
-
-  {% include disqus.html %}
+    {% include talkyard-comments.html %}
 </article>
 

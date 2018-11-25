@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background: $gainsboro; /*$white;*/
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -48,7 +48,7 @@ h1 {
   font-size: 30px;
   color: $h1-color;
   a {
-    color: inherit;
+    color: $gainsboro;
   }
 }
 
@@ -67,16 +67,22 @@ h4 {
   color: $h4-color;
 }
 
+h5 {
+  font-style: italic;
+  font-size: 16px;
+  color: $h5-color;
+}
+
 p {
   margin: 15px 0;
 }
 
 a {
-  color: $link-color;
+  color: $darkerGray;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: darken($link-color,20);
+    color: $slategray;
   }
 }
 
@@ -150,6 +156,14 @@ img {
 //
 // .masthead
 //
+
+.alignLeft {
+  float: left;
+}
+
+.alignRight {
+  float: right;
+}
 
 .wrapper-masthead {
   margin-bottom: 50px;
@@ -280,7 +294,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $gainsboro;
+  background-color: $white;
 }
 
 footer {

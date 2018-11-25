@@ -20,6 +20,7 @@ These objectives include the following:
 Lastly, I seek to make this site a medium where I can share my passion for techonology, especially information security, programming and Internet of Things devices 
 
 ---
+
 ## About Me
 I grew up near the Chicagoland area and officially moved to Chicago, IL when I started college in 2009. In 2015, I earned my Bachelor's degree in Accounting and Management Information Systems from DePaul University. A bit of backstory though...a few quarters into the start of my degree, I realized I needed to bridge the gap between finance/accounting professionals and information systems/technology professionals. I figured that if I generally know how accounting and IT stuff work, I could convey business processes to information systems professionals and vice versa. 
 
@@ -45,7 +46,9 @@ In my opinion, I believe IT audit goes, a level deeper into evaluating a company
 
 ...I guess it's most appropriate that I decided to begin blogging about some of my favorite hobbies at this point in time in my career.
 
-# ABOUT THE BLOG 
+---
+
+## ABOUT THE BLOG 
 The purpose of this blog is to post about cybersecurity topics, especially those related to securing enterprise networks, infrastructure 
 and connected endpoint devices. Commonly referred to as DevSecOps, my objective is to describe everyone's responsibility towards security, explain secure DevOps best practices, program code explanations and to share the knowledge I gain throughout my career as an information security professional.
 
@@ -66,8 +69,9 @@ This site is built using a custom theme for Jekyll, made by [Ben Centra][] calle
 [jekyll]: https://github.com/jekyll/jekyll                                                                                                               
 [oreilly]: http://shop.oreilly.com/
 
+---
+
 ### Contact me
 If you have any questions, comments or seek to collaborate on a project, please send me an email at the following email address:
 
-***[atone36@gmail.com](mailto:atone36@gmail.com)***¬
-
+***[atone36@gmail.com](mailto:atone36@gmail.com)***

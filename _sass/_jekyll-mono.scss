@@ -10,7 +10,7 @@
 .site-name {
     a {
       color: $white;
-      text-decoration: none;
+      text-decoration: 900;
     	cursor: pointer;
       &:hover{
         color: darken($navbar-hover-color,20);
@@ -29,9 +29,9 @@
  
  .post-heading {
         a {
-         color: $hl-color;
+         color: darken($gainsboro,30);
          &:hover{
-           color: darken($hl-color,20);
+           color: $gainsboro;
          }
      }
  }
@@ -95,12 +95,12 @@ button.button-primary:focus {
 
 .intro-header .post-heading {
   padding: 100px 0 50px;
-  color: $white;
+  color: $gainsboro;
   
 }
 
 .intro-header .post-heading h1 {
-    color:$white;
+    color:$gainsboro;
     font-size: 36px;
     line-height: 1.5;
     font-family:$raleway ;
@@ -135,10 +135,10 @@ button.button-primary:focus {
 
 .svg-icon {
     a {
-      color:darken($mono-color,10);
+      color:darken($slategray,10);
       cursor: pointer;
       &:hover {
-        color: darken($mono-color,20);
+        color: darken($gainsboro,20);
       }
     }
 }
